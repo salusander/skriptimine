@@ -18,8 +18,12 @@ d) tekita lokaalne repositoorium git süsteemi jaosk antud kaustas
 git init
 
 remote seadistamine:
-e) git remote add nimi git@github.com:aadress
+a) git remote add nimi git@github.com:aadress
 git remote add skriptimine git@github.com:kasutajanimi/repositoorium.git
 
-f) git remote kontroll
+b) git remote kontroll
 git remote -v
+
+põhikasutamine:
+a) pane fail jälgimisele:
+git add failinimi
